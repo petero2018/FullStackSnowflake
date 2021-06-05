@@ -48,3 +48,5 @@ docker run -it python/dbt bin/bash
 
 Also it's recommended to activate your venv in the container if you want to interact with Python and DBT:
 . dbt-env/bin/activate
+
+for develop (delete this)
