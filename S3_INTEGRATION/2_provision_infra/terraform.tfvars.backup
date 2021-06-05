@@ -1,0 +1,13 @@
+aws_access_key = ""
+
+aws_secret_key = ""
+
+aws_region = ""
+
+project_name = ""
+
+bucket_name = ""
+
+STORAGE_AWS_IAM_USER_ARN = ""
+
+STORAGE_AWS_EXTERNAL_ID = ""

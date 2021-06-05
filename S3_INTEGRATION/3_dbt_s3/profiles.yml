@@ -1,0 +1,18 @@
+snowflake:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: yl52608.eu-west-2.aws
+
+      # User/password auth
+      user: "{{ env_var('SNOWFLAKE_USER_NAME') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+
+      role: SYSADMIN
+      database: TEST
+      warehouse: COMPUTE_WH
+      schema: PUBLIC
+      threads: 10
+      client_session_keep_alive: False
+      query_tag: test
